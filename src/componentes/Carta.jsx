@@ -19,7 +19,7 @@ export const Carta = () => {
             </CardTitle>
           <CardSubtitle className="mb-2 text-muted" tag="h6">
             Card subtitle  
-            <img src="./atributos/WIND.svg" alt="" />
+            <img src="./atributos/LAUGH.svg" alt="" />
           </CardSubtitle>
           <CardText>
             Some quick example text to build on the card title and make up the
