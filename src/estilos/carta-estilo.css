@@ -1,7 +1,82 @@
-h6{
-    font-size: 25px;
-    color: white ;
+.custom-titulo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.custom-titulo img{
+    width: 20px;
+    height: 20px;
+}
+.custom-titulo p{
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+.custom-subtitle{
+    font-size: 20px;
+    color: white !important;
     border: 3px solid rgba(0, 0, 0, 0);
     background-color: rgba(0, 0, 0, 0.29);
-    border-radius: 15%;
+    border-radius: 20px; 
+}
+.custom-imagenes{
+    position: relative;
+    width: 100%; /* Ajusta el ancho y alto del contenedor según tus necesidades */
+  height: 290px;
+}
+.custom-imagenes-01{
+    position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%; 
+}
+.custom-imagenes-02{
+    position: absolute;
+  bottom: 20px;
+  left: 0;
+  z-index: 2;
+  width: 50px; 
+  margin-left: 10px;    
+}
+.custom-ataque p{
+    margin-bottom: 0px;
+    color: white;
+}
+.custom-defensa p{
+    margin-bottom: 0px;
+    color: white;
+}
+.custom-ataque{
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    font-size: 25px;
+    position: absolute;
+    z-index: 2;
+    right:  0;
+    bottom: 60px;
+    background-color: red;
+    border-radius: 20px; 
+    padding-right: 20px;
+    padding-left: 20px; 
+    margin-right: 10px;        
+}
+.custom-defensa{
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    font-size: 25px;
+    position: absolute;
+    z-index: 2;
+    right:  0;
+    bottom: 20px;
+    background-color: blue;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;  
+    margin-right: 10px;    
 }
