@@ -1,19 +1,23 @@
 .custom-titulo{
+    color: rgb(220, 220, 220);
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
+   
 }
 .custom-titulo img{
     width: 20px;
     height: 20px;
 }
 .custom-titulo p{
+   
     margin-right: 5px;
     margin-bottom: 0;
 }
+
 
 .custom-subtitle{
     font-size: 20px;
@@ -79,4 +83,22 @@
     padding-right: 20px;
     padding-left: 20px;  
     margin-right: 10px;    
+}
+
+.custom-carta{
+    background-color: #0015fa58;
+    background-image: radial-gradient(circle at 1px 1px, rgb(76, 76, 76) 1px, transparent 0);
+    background-size: 4px 4px;
+    width:  18rem;
+    margin: 20px;
+    border: none;
+    border-radius: 0px;
+
+}
+.custom-cuerpo{
+    background: rgb(88,8,204);
+    background: linear-gradient(0deg, rgba(88,8,204,1) 0%, rgba(88,8,204,0.23862044817927175) 100%);
+}
+.custom-cuerpo p{
+    color:rgb(220, 220, 220)
 }

@@ -1,0 +1,9 @@
+.coleccion-cartas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+body{
+    background-color: #1E1753;
+}
+

@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Carta } from './componentes/Carta'
+import { CardExpertApp } from './CardExpertApp'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Carta></Carta>
+    <CardExpertApp></CardExpertApp>
   </React.StrictMode>,
 )
