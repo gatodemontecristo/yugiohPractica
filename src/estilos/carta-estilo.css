@@ -9,11 +9,13 @@
    
 }
 .custom-titulo img{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 .custom-titulo p{
-   
+    font-size: 20px;
+    color: #e5f645;
+    font-weight: bold;
     margin-right: 5px;
     margin-bottom: 0;
 }

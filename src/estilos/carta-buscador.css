@@ -1,0 +1,19 @@
+.buscador-custom{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-top: 40px;
+}
+input {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(97, 32, 158);
+    color: black;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+  }
