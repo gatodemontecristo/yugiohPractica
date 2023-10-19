@@ -97,9 +97,21 @@
     border-radius: 0px;
 
 }
-.custom-cuerpo{
+.custom-cuerpo-defecto{
     background: rgb(88,8,204);
     background: linear-gradient(0deg, rgba(88,8,204,1) 0%, rgba(88,8,204,0.23862044817927175) 100%);
+}
+.custom-cuerpo-mounstro{
+    background: rgb(204, 77, 8);
+    background: linear-gradient(0deg, rgba(204, 77, 8,1) 0%, rgba(88,8,204,0.23862044817927175) 100%);
+}
+.custom-cuerpo-magia{
+    background: rgb(47, 204, 8);
+    background: linear-gradient(0deg, rgba(47, 204, 8,1) 0%, rgba(88,8,204,0.23862044817927175) 100%);
+}
+.custom-cuerpo-trampa{
+    background: rgb(204, 8, 155);
+    background: linear-gradient(0deg, rgba(204, 8, 155,1) 0%, rgba(88,8,204,0.23862044817927175) 100%);
 }
 .custom-cuerpo p{
     color:rgb(220, 220, 220)

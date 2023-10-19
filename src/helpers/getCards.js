@@ -5,7 +5,6 @@ export const getCards = async(nombre) => {
     const url = `https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=${nombre}`;
     const resp = await fetch(url);
     const {data} = await resp.json();
-    console.log(data);
     const baraja = data.map(carta=>({
         id: carta.id,
         name: carta.name,

@@ -11,6 +11,7 @@ import { Fragment } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShieldHalved, faHandFist } from "@fortawesome/free-solid-svg-icons";
 import "../estilos/carta-estilo.css";
+import { BuscarEstilo } from "./BuscarEstilo";
 
 export const Carta = (cartita) => {
   let imagen_atributo, tipo_carta_spellTrap;
@@ -25,10 +26,10 @@ export const Carta = (cartita) => {
     tipo_carta_spellTrap = "./trampas/" + cartita.race + ".png";
   }
 
+  let estilo = BuscarEstilo(cartita.type);
   let descSplit = cartita.desc.split("\n");
 
   return (
-    <Fragment>
       <Card className="custom-carta">
         <div className="custom-titulo">
           <CardTitle tag="h5" style={{ marginBottom: "0px" }}>
@@ -76,7 +77,7 @@ export const Carta = (cartita) => {
             </p>
           </div>
         </div>
-        <CardBody className="custom-cuerpo">
+        <CardBody className={`${estilo} custom-cuerpo`}>
           <div style={{ display: "flex", flexWrap: "wrap" }}>
             <CardSubtitle className="custom-subtitle m-1 p-2" tag="h6">
               {cartita.race}
@@ -106,6 +107,5 @@ export const Carta = (cartita) => {
           </div>
         </CardBody>
       </Card>
-    </Fragment>
   );
 };

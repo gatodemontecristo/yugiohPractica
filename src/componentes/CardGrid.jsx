@@ -15,7 +15,7 @@ export const CardGrid = ({nombre}) => {
           
           <div className="coleccion-cartas">
             {cartas.map((propiedades) => (
-              <Carta {...propiedades}></Carta>
+              <Carta key={propiedades.id} {...propiedades}></Carta>
             ))}
           </div>
         </>
