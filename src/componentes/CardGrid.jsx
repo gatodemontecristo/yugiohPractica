@@ -10,9 +10,10 @@ export const CardGrid = ({nombre}) => {
         <>
           <h3>Palabra buscada : "{nombre}"</h3>
           {
-            isLoading && (<h2 >Cargando...</h2>)
+            isLoading && (
+              <span class="loader"></span>
+            )
           }
-          
           <div className="coleccion-cartas">
             {cartas.map((propiedades) => (
               <Carta key={propiedades.id} {...propiedades}></Carta>
