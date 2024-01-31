@@ -28,11 +28,14 @@
 
 https://cssloaders.github.io/
 
+### Mockup
+
+https://shots.so/
+
 ### Captura
 
-  <div align="center" display="flex">
-     <img src="/CapturaYuggi.PNG" alt="Sección de configuración" width="70%" >
-  </div>
+  ![655shots_so](https://github.com/gatodemontecristo/yugiohPractica/assets/61488294/c3e3b1d5-d499-44b7-9d1d-0c1de866cf2a)
+
 
 # React + Vite
 
