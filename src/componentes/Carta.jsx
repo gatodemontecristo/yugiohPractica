@@ -102,7 +102,7 @@ export const Carta = (cartita) => {
               </Fragment>
             ) : (
               // Si la condición es falsa, muestra este elemento 
-              //ola
+              //ola developer
               <p>{descSplit[0]}</p>
             )}
           </div>
