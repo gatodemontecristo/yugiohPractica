@@ -8,7 +8,7 @@ export const CardGrid = ({nombre}) => {
     
     return (
         <>
-          <h3>Palabra buscada : "{nombre}"</h3>
+          <h3 className="coleccion-titulo">Palabra buscada : "{nombre}"</h3>
           {
             isLoading && (
               <span class="loader"></span>
