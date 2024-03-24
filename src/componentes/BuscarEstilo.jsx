@@ -4,6 +4,8 @@ export const BuscarEstilo = (tipo) => {
     let estilo;
     if(tipo.includes("XYZ")){
       estilo = "custom-cuerpo-mounstroXYZ";
+    }else if(tipo.includes("Ritual")){
+      estilo = "custom-cuerpo-mounstroRitual";
     }else if(tipo.includes("Fusion")){
       estilo = "custom-cuerpo-mounstroFusion";
     }else if(tipo.includes("Pendulum")){

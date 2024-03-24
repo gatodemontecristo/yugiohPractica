@@ -38,7 +38,9 @@
   top: 0;
   left: 0;
   z-index: 1;
-  width: 100%; 
+  width: 100%;
+  max-width: 288px; 
+  max-height: 288px; 
 }
 .custom-imagenes-02{
     position: absolute;
@@ -104,6 +106,9 @@
 .custom-cuerpo-mounstro{
     background: rgb(204, 77, 8);
     background: linear-gradient(0deg, rgba(204, 77, 8,1) 0%, rgba(88,8,204,0.23862044817927175) 100%);
+}.custom-cuerpo-mounstroRitual{
+    background: rgb(64, 153, 232);
+    background: linear-gradient(0deg, rgb(64, 153, 232) 0%, rgba(88,8,204,0.23862044817927175) 100%);
 }.custom-cuerpo-mounstroPendulo{
     background: rgb(2, 172, 79);
     background: linear-gradient(0deg, rgb(2, 172, 79) 0%, rgba(88,8,204,0.23862044817927175) 100%);
