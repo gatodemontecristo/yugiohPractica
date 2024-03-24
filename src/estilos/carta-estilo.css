@@ -104,6 +104,23 @@
 .custom-cuerpo-mounstro{
     background: rgb(204, 77, 8);
     background: linear-gradient(0deg, rgba(204, 77, 8,1) 0%, rgba(88,8,204,0.23862044817927175) 100%);
+}.custom-cuerpo-mounstroPendulo{
+    background: rgb(2, 172, 79);
+    background: linear-gradient(0deg, rgb(2, 172, 79) 0%, rgba(88,8,204,0.23862044817927175) 100%);
+}.custom-cuerpo-mounstroLink{
+    background: rgb(1, 100, 213);
+    background: linear-gradient(0deg, rgb(1, 100, 213) 0%, rgba(88,8,204,0.23862044817927175) 100%);
+}.custom-cuerpo-mounstroFusion{
+    background: rgb(73, 2, 124);
+    background: linear-gradient(0deg, rgb(73, 2, 124) 0%, rgba(88,8,204,0.23862044817927175) 100%);
+}
+.custom-cuerpo-mounstroXYZ{
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(88,8,204,0.23862044817927175) 100%);
+}
+.custom-cuerpo-mounstroSynchro{
+    background: rgb(197, 197, 197);
+    background: linear-gradient(0deg, rgb(197, 197, 197) 0%, rgba(88,8,204,0.23862044817927175) 100%);
 }
 .custom-cuerpo-magia{
     background: rgb(47, 204, 8);
