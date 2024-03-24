@@ -2,12 +2,10 @@ import {
   Card,
   CardBody,
   CardTitle,
-  CardSubtitle,
-  CardText,
-  Button,
+  CardSubtitle
 } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShieldHalved, faHandFist } from "@fortawesome/free-solid-svg-icons";
 import "../estilos/carta-estilo.css";
@@ -21,13 +19,20 @@ export const Carta = (cartita) => {
   } else if (cartita.type == "Spell Card") {
     imagen_atributo = "./atributos/SPELL.png";
     tipo_carta_spellTrap = "./hechizos/" + cartita.race + ".png";
-  } else {
+  } else if (cartita.type == "Trap Card") {
     imagen_atributo = "./atributos/TRAP.png";
     tipo_carta_spellTrap = "./trampas/" + cartita.race + ".png";
+  } else{
+    tipo_carta_spellTrap = "./otros/iconnotfound.webp";
   }
 
   let estilo = BuscarEstilo(cartita.type);
   let descSplit = cartita.desc.split("\n");
+
+  const [imageSrc, setImageSrc] = useState(cartita.image);
+  const handleImageError = () => {
+    setImageSrc('./otros/notfound.webp');
+  };
 
   return (
       <Card className="custom-carta">
@@ -55,7 +60,8 @@ export const Carta = (cartita) => {
           <img
             className="custom-imagenes-01"
             alt="Sample"
-            src={cartita.image}
+            src={imageSrc}
+            onError={handleImageError}
           />
           <img className="custom-imagenes-02" src={imagen_atributo} alt="" />
           <div
