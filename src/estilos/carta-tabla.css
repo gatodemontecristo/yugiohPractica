@@ -6,12 +6,20 @@
 body{
     background-color: #1E1753;
 }
-h3{ 
-    font-size: 35px;
-    color: white;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
+
+.coleccion-mensaje {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+
+.coleccion-mensaje h3{
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+ 
 }
 
 
@@ -39,3 +47,21 @@ h3{
     }
   }
       
+  @media only screen and (min-width: 300px) {
+    .coleccion-mensaje h3{
+      font-size: 24px;
+      margin-top: 10px;
+    }
+    .coleccion-mensaje img{
+      width: 60%;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .coleccion-mensaje h3{
+      font-size: 35px;
+      margin-top: 20px;
+    }
+    .coleccion-mensaje img{
+      width: 40%;
+    }
+  }
