@@ -4,7 +4,7 @@
     <img src="https://raw.githubusercontent.com/gatodemontecristo/yugiohPractica/main/public/atributos/Slifer.webp" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Proyecto Yugi Motto vs2</h3>
+<h3 align="center">Proyecto Yugi Motto vs3</h3>
 
   <p align="center">
     Proyecto buscador de cartas de Yu-Gi-OH hecho con YGOPRODeck
